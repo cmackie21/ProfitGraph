@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">EPWT Graph</string>
+
+    <!--Strings related to OptionActivity-->
+    <string name="instruction1">Please select your country</string>
+    <string name="create_graph_button">Create Graph</string>
+
+    <string-array name="country_spinner">
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hong Kong</item>
+        <item>Iceland</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Korea Republicof</item>
+        <item>Luxembourg</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Singapore</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+
+
+    -
+    <string-array name="series_options">
+
+        <item>Population</item>
+
+        <item>Fertility</item>
+
+        <item>Birth Rates</item>
+
+        <item>Mortality</item>
+
+        <item>Workforce</item>
+
+        <item>Growth of Workforce p.a.</item>
+
+        <item>Capital Stock (US $ 2005)</item>
+
+        <item>Capital Used Up</item>
+
+        <item>Variable Capital</item>
+
+        <item>Surplus Value</item>
+
+        <item>GDP</item>
+
+        <item>Depreciation</item>
+
+        <item>Growth of Labour Productivity</item>
+
+        <item>Accumulation Rate</item>
+
+        <item>Rate of Profit (%)</item>
+
+        <item>Equilibrium Rate of Profit (%)</item>
+
+        <item>Rate of Surplus Value(%)</item>
+
+        <item>Organic Composition of Capital(%)</item>
+
+    </string-array>
+
+    <string-array name="series_option_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string name="series_default">GDP</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="checkbox_option_title">Series Selection</string>
+    <string name="save_picture">Save Picture</string>
+    <string name="download_title">Select New File</string>
+    <string name="provide_file_url">File URL</string>
+    <string name="provide_file_summary">Provide a URL to new EPWT file</string>
+    <string name="series_summary">Select option(s) for display on line graph</string>
+    <string name="select_file_option">Default packaged file for graph</string>
+    <string name="select_file_summary">Untick for locally processed file</string>
+    <string name="select_local_file">Select locally processed file</string>
+
+    <!--Strings related to permissions-->
+    <string name="storage_message">Permission is required in order to write graph to external storage.</string>
+    <string name="storage_title">Request Storage Permission?</string>
+    <string name="ok_button">Yes</string>
+    <string name="cancel_button">No</string>
+
+    <!--Strings related to About Page-->
+    <string name="about_summary">EPWT Graph was a summer project developed by Catherine Mackie as part of the requirements for completion of a MSc in Information Technology at the University of Glasgow.  The project was supervised by Dr Paul Cockshott. \n\nThe purpose of this app is to make line graphs displaying Marxian data from the Extended Penn World Tables.  The default file is EPWT v4.csv, and the application has the ability to process a new EPWT file in CSV format in the Settings page.</string>
+    <string name="about_title">About</string>
+
+
+
+</resources>

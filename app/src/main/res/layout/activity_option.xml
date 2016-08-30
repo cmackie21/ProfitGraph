@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.cmackie.gbr.EPWTGraph.OptionActivity">
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:entries="@array/country_spinner" android:id="@+id/country_spinner"
+        android:layout_below="@+id/intro_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/intro_text"
+        android:text="@string/instruction1" android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp" />
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:layout_marginTop="60dp" android:id="@+id/graph_button" android:text="@string/create_graph_button" android:onClick="getOption" style="?android:attr/buttonStyleSmall"
+        android:layout_below="@+id/country_spinner"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:id="@+id/my_toolbar" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:elevation="4dp" android:background="?attr/colorPrimary"/>
+
+</RelativeLayout>

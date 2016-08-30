@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Checkbox for series plot options grouped in subscreen-->
+
+   <!-- <PreferenceScreen android:title="@string/checkbox_option_title" android:persistent="false" android:key="series_option_key">-->
+    <MultiSelectListPreference android:title="@string/checkbox_option_title" android:key="list_option_key"  android:entryValues="@array/series_option_values"  android:entries="@array/series_options" android:summary="@string/series_summary"/>
+    <EditTextPreference android:title="@string/provide_file_url" android:key="url_file" android:summary="@string/provide_file_summary"/>
+    <CheckBoxPreference android:title="@string/select_file_option" android:summary="@string/select_file_summary" android:key="use_file_key" android:defaultValue="true"/>
+    <!--</PreferenceScreen>-->
+</PreferenceScreen>
